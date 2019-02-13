@@ -8,7 +8,7 @@ use Phi\HTML\CSSFile;
 use Phi\HTML\JavascriptFile;
 use Planck\Extension\Navigation\Module\Container\View\ContainerEditor;
 use Planck\Extension\RichTag\Module\Type\View\Index;
-use Planck\Router;
+use Planck\Routing\Router;
 
 
 
