@@ -2,6 +2,9 @@
 
     <div class="col-2">
 
+
+        <div id="test-yolo"></div>
+
     </div>
 
     <div class="col-10">
@@ -22,7 +25,7 @@
 
                 <fieldset>
                     <label>Sélection route</label>
-                    <select></select>
+                    <span class="plk-route-selector"></span>
                 </fieldset>
             </div>
 
