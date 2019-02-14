@@ -1,86 +1,95 @@
-<div class="row">
-
-    <div class="col-2">
 
 
-        <div id="test-yolo"></div>
 
-    </div>
+<div class="navigation-container-editor">
 
-    <div class="col-10">
-        <div class="row">
-            <div class="col-6">
-                <fieldset>
-                    <label>Label <input/></label>
-                </fieldset>
 
-                <fieldset>
-                    <label>Type
-                        <select>
-                            <option>URL</option>
-                            <option>Route</option>
-                        </select>
-                    </label>
-                </fieldset>
+    <div class="row">
 
-                <fieldset>
-                    <label>Sélection route</label>
-                    <span class="plk-route-selector"></span>
-                </fieldset>
+        <div class="col-4">
+
+
+            <div class="json-editor-container"></div>
+
+        </div>
+
+        <div class="col-8">
+            <div class="row">
+                <div class="col-6">
+                    <fieldset>
+                        <label>Label <input/></label>
+                    </fieldset>
+
+                    <fieldset>
+                        <label>Type
+                            <select>
+                                <option>URL</option>
+                                <option>Route</option>
+                            </select>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <label>Sélection route</label>
+                        <span class="plk-route-selector"></span>
+                    </fieldset>
+                </div>
+
+                <div class="col-6">
+
+                    <fieldset>
+                        <label>Nom du paramètre <input/></label>
+                    </fieldset>
+
+                    <fieldset>
+                        <label>Type du paramètre
+                            <select>
+                                <option>Valeur</option>
+                                <option>Chargeur d'object</option>
+                            </select>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <label>Type d'object
+                            <select>
+                                <option>Article</option>
+                            </select>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <label>Méthode de chargement
+                            <select>
+                                <option>Par ID</option>
+                                <option>Par propriété</option>
+                            </select>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <label>Propriété
+                            <select>
+                                <option>id</option>
+                                <option>slug</option>
+                            </select>
+                        </label>
+                        <label>
+                            Valeur <input/>
+                        </label>
+                    </fieldset>
+
+
+
+
+                </div>
             </div>
 
-            <div class="col-6">
-
-                <fieldset>
-                    <label>Nom du paramètre <input/></label>
-                </fieldset>
-
-                <fieldset>
-                    <label>Type du paramètre
-                        <select>
-                            <option>Valeur</option>
-                            <option>Chargeur d'object</option>
-                        </select>
-                    </label>
-                </fieldset>
-
-                <fieldset>
-                    <label>Type d'object
-                        <select>
-                            <option>Article</option>
-                        </select>
-                    </label>
-                </fieldset>
-
-                <fieldset>
-                    <label>Méthode de chargement
-                        <select>
-                            <option>Par ID</option>
-                            <option>Par propriété</option>
-                        </select>
-                    </label>
-                </fieldset>
-
-                <fieldset>
-                    <label>Propriété
-                        <select>
-                            <option>id</option>
-                            <option>slug</option>
-                        </select>
-                    </label>
-                    <label>
-                        Valeur <input/>
-                    </label>
-                </fieldset>
-
-
-
-
-            </div>
         </div>
 
     </div>
 
+</div>
 <!--
 $navigationDescriptor = array(
 
@@ -125,4 +134,3 @@ $navigationDescriptor = array(
 
 
 
-</div>

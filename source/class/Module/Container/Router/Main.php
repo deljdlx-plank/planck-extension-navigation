@@ -25,7 +25,10 @@ class Main extends Router
 
         $this->get('list', '`/container/list`', function() {
 
-            $view = new ContainerEditor();
+
+            $view = new ContainerEditor(
+                (int) $this->get('container')
+            );
 
             echo $view->render();
 
