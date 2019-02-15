@@ -9,6 +9,10 @@ $(function() {
         routeSelector.loadRoutes();
 
 
+        var entitySelector = new Planck.Extension.FormComponent.View.Component.EntitySelector('.entity-selector-placeholder');
+        entitySelector.render();
+
+
 
 
 

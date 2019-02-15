@@ -50,6 +50,9 @@
                         </label>
                     </fieldset>
 
+                    <div class="entity-selector-placeholder" style="border: solid 1px #F00"></div>
+
+                    <!--
                     <fieldset>
                         <label>Type d'object
                             <select>
@@ -78,6 +81,7 @@
                             Valeur <input/>
                         </label>
                     </fieldset>
+                    //-->
 
 
 
