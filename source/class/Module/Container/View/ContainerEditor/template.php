@@ -9,7 +9,7 @@
         <div class="col-4">
 
 
-            <div class="json-editor-container"></div>
+            <div class="json-editor-container" style="border: solid 1px #F00;"></div>
 
         </div>
 

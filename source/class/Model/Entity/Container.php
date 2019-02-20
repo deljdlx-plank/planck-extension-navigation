@@ -4,15 +4,15 @@ namespace Planck\Extension\Navigation\Model\Entity;
 
 
 
-use Planck\Helper\StringUtil;
+
 use Planck\Model\Entity;
 use Planck\Model\Traits\HasProperties;
-
-use Planck\Extension\RichTag\Model\Repository\Association as AssociationRepository;
+use Planck\Model\Traits\Timestampable;
 
 class Container extends Entity
 {
     use HasProperties;
+    use Timestampable;
 
 
     public function getDescriptor()

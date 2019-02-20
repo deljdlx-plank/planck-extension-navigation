@@ -22,6 +22,17 @@ class Api extends Router
     public function registerRoutes()
     {
 
+        $this->post('save', '`/container/api/save`', function() {
+
+            $data = $this->post();
+
+            $descriptor = json_decode(
+               $data['json'], true
+            );
+
+            echo json_encode($descriptor);
+
+        })->json();
 
 
 
